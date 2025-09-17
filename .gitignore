@@ -1,0 +1,75 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Node.js / npm
+node_modules/
+npm-debug.log*
+.yarn/
+.yarn-cache/
+.pnp.*
+.npmrc
+package-lock.json  # если используете yarn — оставьте только yarn.lock
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+venv/
+ENV/
+
+# Build directories
+dist/
+build/
+out/
+target/
+bin/
+obj/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Environment variables (секреты!)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and project files
+*.iml
+*.ipr
+*.iws
+.project
+.settings/
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+
+# Testing
+coverage/
+.nyc_output/
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
